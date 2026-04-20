@@ -1,0 +1,6 @@
+﻿<Application x:Class="ClientInformation.App.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <!-- Kein StartupUri — Fenster wird in App.xaml.cs erstellt (Single-Instance-Schutz) -->
+    <Application.Resources/>
+</Application>

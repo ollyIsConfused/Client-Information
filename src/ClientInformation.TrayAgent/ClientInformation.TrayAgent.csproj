@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClientInformation.Shared\ClientInformation.Shared.csproj" />
+    <ProjectReference Include="..\ClientInformation.Data\ClientInformation.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\Client.ico" CopyToOutputDirectory="PreserveNewest"/>
+  </ItemGroup>
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationIcon>Assets\Client.ico</ApplicationIcon>
+  </PropertyGroup>
+
+</Project>
